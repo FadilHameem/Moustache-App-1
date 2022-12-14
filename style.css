@@ -1,0 +1,24 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-info:hover{
+    background-color: black;
+    color:red;
+    box-shadow: 5px 5px 50px darkblue;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    background-color: darkred;
+}
+
+@keyframes example{
+    0% {background-color: darkred; left:0px; top:0px; }
+    25% {background-color: black; left:200px; top:0px;}
+    50% {background-color: darkblue; left:200px; top:200px;}
+    75% {background-color: darkgreen; left:0px; top:200px;}
+    100% {background-color: darkred; left:0px; top:0px;}
+}
